@@ -1,0 +1,391 @@
+@font-face {
+      font-family: "garinefirst";
+      src: url("../fuentes/garine-first-webfont.eot");
+      src: url("../fuentes/garine-first-webfont.eot?#iefix") format("embedded-opentype"), url("../fuentes/garine-first-webfont.woff2") format("woff2"), url("../fuentes/garine-first-webfont.woff") format("woff"), url("../fuentes/garine-first-webfont.svg#garinefirst") format("svg");
+      font-weight: normal;
+      font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Ubuntu:wght@500&display=swap");
+
+/* #BA4A20
+   #B33851
+   #933F71
+   #65497C
+   #3C4C71
+   #2F4858
+   #fff
+   #000
+   #111
+   #06c5599c
+   #E36BC8
+   #8771DF
+   #FF9B79
+   */
+
+
+/* CSS HEX
+   --deep-space-sparkle: #335c67ff;
+   --medium-champagne: #fff3b0ff;
+   --indian-yellow: #e09f3eff;
+   --auburn: #9e2a2bff;
+   --rosewood: #540b0eff;
+   */
+
+
+/* CSS HSL 
+   --deep-space-sparkle: hsla(193, 34%, 30%, 1);
+   --medium-champagne: hsla(51, 100%, 85%, 1);
+   --indian-yellow: hsla(36, 72%, 56%, 1);
+   --auburn: hsla(359, 58%, 39%, 1);
+   --rosewood: hsla(358, 77%, 19%, 1);
+
+   /* SCSS HEX 
+   $deep-space-sparkle: #335c67ff;
+   $medium-champagne: #fff3b0ff;
+   $indian-yellow: #e09f3eff;
+   $auburn: #9e2a2bff;
+   $rosewood: #540b0eff;
+   */
+
+
+/* SCSS HSL 
+
+$deep-space-sparkle: hsla(193, 34%, 30%, 1);
+$medium-champagne: hsla(51, 100%, 85%, 1);
+$indian-yellow: hsla(36, 72%, 56%, 1);
+$auburn: hsla(359, 58%, 39%, 1);
+$rosewood: hsla(358, 77%, 19%, 1);*/
+
+
+/* SCSS RGB */
+
+
+/* $deep-space-sparkle: rgba(51, 92, 103, 1);
+   $medium-champagne: rgba(255, 243, 176, 1);
+   $indian-yellow: rgba(224, 159, 62, 1);
+   $auburn: rgba(158, 42, 43, 1);
+   $rosewood: rgba(84, 11, 14, 1);
+ */
+
+
+/* SCSS Gradient */
+
+
+/* $gradient-top: linear-gradient(0deg, #335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff);
+   $gradient-right: linear-gradient(90deg, #335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff);
+   $gradient-bottom: linear-gradient(180deg, #335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff);
+   $gradient-left: linear-gradient(270deg, #335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff);
+   $gradient-top-right: linear-gradient(45deg, #335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff);
+   $gradient-bottom-right: linear-gradient(135deg, #335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff);
+   $gradient-top-left: linear-gradient(225deg, #335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff);
+   $gradient-bottom-left: linear-gradient(315deg, #335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff);
+   $gradient-radial: radial-gradient(#335c67ff, #fff3b0ff, #e09f3eff, #9e2a2bff, #540b0eff); 
+   
+   /* CSS HEX 
+   --russian-violet: #241e4eff;
+   --dark-d: #960200ff;
+   --copper-red: #ce6c47ff;
+   --sunglow: #ffd046ff;
+   --medium-champagne: #eadaa2ff;*/
+
+
+/* CSS HSL 
+   --russian-violet: hsla(248, 44%, 21%, 1);
+   --dark-red: hsla(1, 100%, 29%, 1);
+   --copper-red: hsla(16, 58%, 54%, 1);
+   --sunglow: hsla(45, 100%, 64%, 1);
+   --medium-champagne: hsla(47, 63%, 78%, 1);*/
+
+
+/* SCSS HEX 
+   $russian-violet: #241e4eff;
+   $dark-red: #960200ff;
+   $copper-red: #ce6c47ff;
+   $sunglow: #ffd046ff;
+   $medium-champagne: #eadaa2ff;*/
+
+
+/* SCSS HSL 
+   $russian-violet: hsla(248, 44%, 21%, 1);
+   $dark-red: hsla(1, 100%, 29%, 1);
+   $copper-red: hsla(16, 58%, 54%, 1);
+   $sunglow: hsla(45, 100%, 64%, 1);
+   $medium-champagne: hsla(47, 63%, 78%, 1);*/
+
+
+/* SCSS RGB 
+   $russian-violet: rgba(36, 30, 78, 1);
+   $dark-red: rgba(150, 2, 0, 1);
+   $copper-red: rgba(206, 108, 71, 1);
+   $sunglow: rgba(255, 208, 70, 1);
+   $medium-champagne: rgba(234, 218, 162, 1);*/
+
+
+/* SCSS Gradient 
+   $gradient-top: linear-gradient(0deg, #241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);
+   $gradient-right: linear-gradient(90deg, #241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);
+   $gradient-bottom: linear-gradient(180deg, #241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);
+   $gradient-left: linear-gradient(270deg, #241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);
+   $gradient-top-right: linear-gradient(45deg, #241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);
+   $gradient-bottom-right: linear-gradient(135deg, #241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);
+   $gradient-top-left: linear-gradient(225deg, #241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);
+   $gradient-bottom-left: linear-gradient(315deg, #241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);
+   $gradient-radial: radial-gradient(#241e4eff, #960200ff, #ce6c47ff, #ffd046ff, #eadaa2ff);*/
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* font-family: 'Raleway', sans-serif; */
+
+
+/* logo tiene 181px * 50px */
+
+
+/* font-family: "garinefirst"; */
+
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.contenedor {
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: auto auto relative;
+      grid-template-areas: " header header header" "section section section" "footer footer footer";
+      /* justify-items: center; */
+      /* align-items: center; */
+      min-width: 322px;
+}
+
+body {
+      font-family: "Montserrat", sans-serif;
+      line-height: 1.5rem;
+}
+
+h2 {
+      font-family: "garinefirst";
+      /* text-align: center; */
+      padding: 2rem 2rem;
+      font-size: 3rem;
+      line-height: 4.5rem;
+      letter-spacing: 0.25rem;
+      text-align: center;
+      margin: auto;
+      width: 80%;
+}
+
+p {
+      letter-spacing: 0.0625rem;
+}
+
+header {
+      grid-area: header;
+      background-image: url("../img/panoramicaMadrid.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100vh;
+      justify-self: center;
+      align-self: center;
+}
+
+.header {
+      width: 90%;
+      height: 100vh;
+      display: grid;
+      margin: 0 auto;
+      grid-template-areas: "logo logo logo" "nav nav nav" "h2 h2 h2" "parr parr parr";
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: auto 1fr auto;
+      justify-items: center;
+      align-items: center;
+}
+
+.header h1 {
+      grid-area: logo;
+      background: url("../img/logoblanco.png") center center no-repeat;
+      background-size: contain;
+      width: 181px;
+      height: 50px;
+      font-size: 0;
+      margin: auto;
+      text-align: center;
+      padding: 3rem;
+      transition: all 1s ease;
+}
+
+.header h1:hover {
+      background: url("../img/logodark.png") center center no-repeat;
+}
+
+.header nav {
+      /* background-color: antiquewhite; */
+      grid-area: nav;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      position: sticky;
+}
+
+.header nav ul li {
+      width: 10rem;
+      height: 2rem;
+      list-style: none;
+      text-align: center;
+      margin: 1rem auto;
+      /* border: 0.065rem solid wheat; */
+}
+
+.header nav ul li a {
+      display: block;
+      text-decoration: none;
+      background-color: rgba(234, 218, 162, 0);
+      color: white;
+      line-height: 2rem;
+      /* padding: 0 6rem; */
+      text-align: center;
+      border-radius: 2rem 2rem;
+      transition: all 1s ease;
+      font-size: 1.5rem;
+}
+
+.header nav ul li a:hover {
+      background-color: white;
+      color: black;
+}
+
+.header h2 {
+      grid-area: h2;
+      /* font-weight: 300; */
+      font-size: 5rem;
+      color: antiquewhite;
+      text-shadow: 4px 4px 1px black;
+      margin: auto;
+      text-align: center;
+}
+
+.header p {
+      grid-area: parr;
+      text-align: center;
+      text-shadow: 4px 4px 1px black;
+      color: antiquewhite;
+      font-size: 2rem;
+      line-height: 3rem;
+      padding: 1rem;
+}
+
+section {
+      width: 100vw;
+      grid-area: section;
+      /* border: 5px solid blue; */
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 100px auto 100px auto 100px;
+}
+
+footer {
+      grid-area: footer;
+      background-color: aquamarine;
+      height: 3rem;
+      line-height: 3rem;
+      text-align: center;
+}
+
+.seccion .uno {
+      grid-row: 1;
+      padding-top: 10rem;
+}
+
+.col {
+      margin: 2rem 1rem;
+}
+
+.col p {
+      padding: .5rem 2rem;
+}
+
+.seccion .dos {
+      grid-row: 3;
+}
+
+.seccion .tres {
+      grid-row: 5;
+}
+
+.uno,
+.dos,
+.tres {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+}
+
+
+/**seteo del google map - video */
+
+
+/*  width="400" height="400"  */
+
+.mapa,
+.video {
+      width: 80vw;
+      height: auto;
+      box-shadow: 0.31rem 0.31rem 0.5rem rgba(153, 150, 150, 0.6);
+      /* border: 1px solid black; */
+      text-align: center;
+      /* background-color: burlywood; */
+      margin: auto;
+}
+
+.mapa {
+      height: calc(80vw * 400 / 400);
+      max-width: 400px;
+      max-height: 400px;
+}
+
+.video {
+      /* width="560" height="315" */
+      height: calc(80vw * 315 / 560);
+      max-width: 560px;
+      max-height: 315px;
+}
+
+
+/* .mapa figure {
+	background: pink;
+	font-size: 0;
+	text-align: center; */
+
+.mapa iframe,
+.video iframe {
+      /* width="800" height="600"  */
+      width: 100%;
+      height: 100%;
+      border: 0;
+}
+
+
+/* *seteo de figure */
+
+.foto {
+      box-shadow: 0.31rem 0.31rem 0.5rem rgba(153, 150, 150, 0.6);
+      padding: 2rem;
+      margin: 2rem auto;
+      background-color: whitesmoke;
+}
+
+figcaption {
+      text-align: left;
+}

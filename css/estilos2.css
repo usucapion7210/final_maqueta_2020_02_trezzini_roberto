@@ -1,0 +1,70 @@
+@font-face {
+     font-family: "garinefirst";
+     src: url("../fuentes/garine-first-webfont.eot");
+     src: url("../fuentes/garine-first-webfont.eot?#iefix") format("embedded-opentype"),
+          url("../fuentes/garine-first-webfont.woff2") format("woff2"),
+          url("../fuentes/garine-first-webfont.woff") format("woff"),
+          url("../fuentes/garine-first-webfont.svg#garinefirst") format("svg");
+     font-weight: normal;
+     font-style: normal;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+
+
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+header {
+     height: 100vh;
+     background: black url("../img/panoramicaMadrid.jpg")no-repeat;
+     background-color: blueviolet;
+     background-size: cover;
+
+     background-attachment: fixed;
+}
+
+.header__h1 {
+
+     background: url("../img/logoblanco.png") center center no-repeat;
+     background-size: contain;
+     width: 181px;
+     height: 50px;
+     font-size: 0;
+     margin: auto;
+     text-align: center;
+     padding: 3rem;
+     transition: all 1s ease;
+}
+
+.header__h1:hover {
+     background: url("../img/logodark.png") center center no-repeat;
+
+}
+
+.header div:last-child {
+     width: 50%;
+     color: antiquewhite;
+     margin: 10rem auto;
+}
+
+.banner h2 {
+     font-family: garinefirst;
+     font-size: 4rem;
+     text-shadow: .125rem .125rem .6rem antiquewhite;
+     margin: 1rem auto;
+     text-align: center;
+}
+
+.banner:last-child {
+     font-family: 'Roboto', sans-serif;
+     font-size: 3rem;
+     text-align: center;
+}

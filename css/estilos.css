@@ -1,0 +1,378 @@
+@font-face {
+     font-family: "garinefirst";
+     src: url("../fuentes/garine-first-webfont.eot");
+     src: url("../fuentes/garine-first-webfont.eot?#iefix") format("embedded-opentype"),
+          url("../fuentes/garine-first-webfont.woff2") format("woff2"),
+          url("../fuentes/garine-first-webfont.woff") format("woff"),
+          url("../fuentes/garine-first-webfont.svg#garinefirst") format("svg");
+     font-weight: normal;
+     font-style: normal;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: "Montserrat", sans-serif;
+     background-image: url("../img/dibujo2.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+
+.contenedor {
+     width: 100vw;
+     display: grid;
+     grid-auto-columns: 1fr;
+     grid-auto-rows: 1fr;
+     grid-template-areas:
+          "header header header header"
+          "sec1 sec1 sec1 sec1"
+          "footer footer footer footer";
+     grid-template-columns: 1fr auto auto 1fr;
+     grid-template-rows: 100vh auto 10em;
+     /* grid-row-gap: 2rem; */
+}
+
+.header {
+     grid-area: header;
+     height: 100vh;
+     background: black url("../img/panoramicaMadrid.jpg")no-repeat;
+     background-color: blueviolet;
+     background-size: cover;
+
+     background-attachment: fixed;
+
+}
+
+.header div:first-child {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+
+
+.header div:last-child {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+
+     margin-bottom: 3rem;
+     text-align: center;
+}
+
+.header div:last-child p {
+     color: antiquewhite;
+     font-size: 2rem;
+}
+
+.header__h1 {
+
+     background: url("../img/logoblanco.png") center center no-repeat;
+     background-size: contain;
+     width: 181px;
+     height: 50px;
+     font-size: 0;
+     margin: auto;
+     text-align: center;
+     padding: 3rem;
+     transition: all 1s ease;
+}
+
+.header__h1:hover {
+     background: url("../img/logodark.png") center center no-repeat;
+
+}
+
+.banner {
+     padding: 3rem 5rem;
+     margin: 2rem auto;
+     text-align: center;
+}
+
+.header__titulo {
+     font-family: "garinefirst";
+     font-size: 3.5rem;
+     color: antiquewhite;
+
+     font-weight: bold;
+}
+
+.parrafo {
+     font-size: 1.5ren;
+     line-height: 2rem;
+     margin: 2rem auto;
+
+}
+
+/* @media screen and (min-width:481px) {
+     .parrafo {
+          display: none;
+     }
+
+
+
+     .article__figure {
+          width: 90%;
+          margin: auto;
+          height: auto;
+     }
+
+} */
+
+.header nav {
+     /* background-color: antiquewhite; */
+     grid-area: nav;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     position: sticky;
+}
+
+.header nav ul li {
+     width: 10rem;
+     height: 2rem;
+     list-style: none;
+     text-align: center;
+     margin: 1rem auto;
+     /* border: 0.065rem solid wheat; */
+}
+
+.header nav ul li a {
+     display: block;
+     text-decoration: none;
+     background-color: rgba(234, 218, 162, .1);
+     color: white;
+     line-height: 2rem;
+     /* padding: 0 6rem; */
+     text-align: center;
+     border-radius: 2rem 2rem;
+     transition: all 1s ease 0s;
+     font-size: 1.5rem;
+}
+
+.header nav ul li a:hover {
+     background-color: white;
+     color: black;
+}
+
+/* *-------------------------- */
+
+.section {
+     grid-area: sec1;
+     background-color: hsla(47, 63%, 78%, 0.8);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 3rem;
+}
+
+article {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     flex-wrap: wrap;
+
+}
+
+.section__article {
+
+     padding: 1rem 1rem;
+     box-shadow: 0 0 6px black;
+     margin: 2rem 0;
+}
+
+.section__titulo {
+     font-family: "garinefirst";
+     font-size: 3rem;
+     text-align: center;
+
+}
+
+.article__texto {
+     width: 100%;
+     line-height: 1.5rem;
+     padding: 1rem 1rem;
+     margin: auto;
+
+}
+
+
+.article__figure {
+     background-color: transparent;
+     width: 100%;
+     padding: 2rem;
+     text-align: center;
+}
+
+.article__figure>div {
+     padding: 2rem 0;
+}
+
+img {
+     max-width: 100%;
+     padding: 2rem;
+
+}
+
+
+footer {
+     grid-area: footer;
+     background-color: rgba(36, 30, 78, 0.6);
+     height: 10rem;
+     color: antiquewhite;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+/** ---------------------- */
+.mapa,
+.video {
+     width: 80vw;
+     height: auto;
+     box-shadow: 0.31rem 0.31rem 0.5rem rgba(153, 150, 150, 0.6);
+     /* border: 1px solid black; */
+     text-align: center;
+     /* background-color: burlywood; */
+     margin: 2rem auto;
+}
+
+.mapa {
+     height: calc(80vw * 400 / 400);
+     max-width: 400px;
+     max-height: 400px;
+}
+
+.video {
+     /* width="560" height="315" */
+     height: calc(80vw * 315 / 560);
+     max-width: 560px;
+     max-height: 315px;
+}
+
+
+/* .mapa figure {
+	background: pink;
+	font-size: 0;
+	text-align: center; */
+
+.mapa iframe,
+.video iframe {
+     /* width="800" height="600"  */
+     width: 100%;
+     height: 100%;
+     border: 0;
+}
+
+
+
+figcaption {
+     color: gray;
+     text-align: center;
+     padding-top: -1rem;
+}
+
+.article__figure {
+     text-align: center;
+}
+
+form {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+form div {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: denter;
+     margin: 2rem auto;
+}
+
+aside>p {
+     text-align: center;
+}
+
+label,
+input {
+     width: 100%;
+     display: inline-block;
+}
+
+input {
+     margin: 1rem auto;
+     height: 2rem;
+     outline: none;
+
+}
+
+input:focus,
+textarea:focus {
+     outline: 1px solid darkmagenta;
+}
+
+div>textarea {
+     margin: 1rem 0;
+     resize: none;
+}
+
+#boton {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-end;
+}
+
+#boton input {
+     background-color: cadetblue;
+     border-radius: 6px;
+     /* width: 10%; */
+     height: 2rem;
+
+}
+
+.grilla__fotos {
+     display: grid;
+     grid-template-areas: "foto1 foto4"
+          "foto3 foto4"
+          "foto2 foto2";
+
+}
+
+.foto1 {
+     grid-area: foto1;
+
+}
+
+.foto2 {
+     grid-area: foto2;
+     text-align: center;
+}
+
+.foto3 {
+     grid-area: foto3;
+}
+
+.foto4 {
+     grid-area: foto4;
+
+}
